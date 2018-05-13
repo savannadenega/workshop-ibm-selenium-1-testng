@@ -17,8 +17,6 @@ public class WebDriverInstance {
 	protected static WebDriver driver = null;
 	protected static String baseUrl = System.getProperty("baseUrl",
 			"http://book.theautomatedtester.co.uk/chapter1");
-	
-	//TODO ver sobre porque usar System.getProperty("baseUrl", ...
 
 	@BeforeClass
 	public static void setUp() throws Exception {
@@ -32,4 +30,5 @@ public class WebDriverInstance {
 //		driver.close();
 //		driver.quit();
 //	}
+	
 }

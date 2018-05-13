@@ -2,6 +2,7 @@ package testCases;
 
 import org.testng.*;
 import org.testng.annotations.Test;
+import org.openqa.selenium.Keys;
 //import org.junit.Assert;
 //import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
@@ -18,30 +19,38 @@ public class Chapter1TestCase extends WebDriverInstance {
 
 	Chapter1Objs chapter1Objs = PageFactory.initElements(driver, Chapter1Objs.class);
 
-	//1
+	// 1
 	@Test
 	public void clickRadioButtonEsquerda() throws InterruptedException {
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		chapter1Objs.radioButtonEsquerda(driver).click();
 	}
+
+	// 2
+	@Test
+	public void clickComboBoxEsquerda() throws InterruptedException {
+		Thread.sleep(1000);
+		chapter1Objs.comboBoxEsquerda(driver).click();
+		chapter1Objs.comboBoxEsquerda(driver).sendKeys("Selenium Grid");
+		chapter1Objs.comboBoxEsquerda(driver).sendKeys(Keys.RETURN);
+	}
+
 	
 	
 	
-	//6
+	// 6
 	@Test
 	public void clickButtonLoadRedBox() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(5000);
 		chapter1Objs.buttonLoadRedBox(driver).click();
 	}
-	
-	//7
+
+	// 7
 	@Test
 	public void verifyTextRedBox() throws InterruptedException {
-		//Thread.sleep(1000);
+		Thread.sleep(5000);
 		String text = chapter1Objs.textRedBox(driver).getText();
 		Assert.assertFalse(text.isEmpty());
 	}
-	
-	
 
 }
