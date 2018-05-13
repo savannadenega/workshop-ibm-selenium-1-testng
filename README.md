@@ -21,7 +21,7 @@ A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 - Selenium Chrome Driver
 - TestNG
 - TestNG Eclipse Plugin
-- IDE Eclipse
+- Eclipse IDE
 
 ### Como configurar o ambiente:
 
@@ -34,24 +34,24 @@ A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 
 [https://dl.bintray.com/testng-team/testng-eclipse-release/zipped/6.11.0.201703011520/site_assembly.zip](https://dl.bintray.com/testng-team/testng-eclipse-release/zipped/6.11.0.201703011520/site_assembly.zip)
 
-Esta é a URL direta pra download do TestNG versão 6.11.
+_Esta é a URL direta pra download do TestNG versão 6.11._
 
 - Você irá fazer download do arquivo `site_assembly.zip`. Este arquivo contém duas pastas com os nomes `features` e `plugin`;
 
 A pasta `features` contém os dois arquivos descritos abaixo:
 
-	```
+```
     org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
     org.testng.eclipse_6.11.0.201703011520.jar
-	```
+```
 	
 A pasta `plugin` contém os dois arquivos descritos abaixo:
 
-    ```
+```
 	org.testng.eclipse.maven_6.11.0.201703011520.jar
     org.testng.eclipse_6.11.0.201703011520.jar
-	```
-Nota: você pode procurar por recentes atualizações do TestNG [aqui](https://github.com/cbeust/testng-eclipse).
+```
+_Nota: você pode procurar por recentes atualizações do TestNG [aqui](https://github.com/cbeust/testng-eclipse)._
 
 - Vá até o diretório onde está a instalação do Eclipse e procure pela pasta `dropins`;
 - Crie uma subpasta nesta pasta `dropins` com o nome `testng-eclipse-6.11`;
@@ -69,7 +69,7 @@ A estrutura das pastas deverá ficar assim:
 					org.testng.eclipse.maven_6.11.0.201703011520.jar
 					org.testng.eclipse_6.11.0.201703011520.jar 
 ```
-Nota: Este procedimento foi realizado na versão do Eclipse Neon.
+_Nota: Este procedimento foi realizado na versão do Eclipse Neon._
 
 - Você vai precisar reiniciar ou iniciar o Eclipse (caso esteja com ele fechado), para que o plugin do TestNG possa ser carregado;
 - Com o Eclipse aberto, pressione `CTRL+N`, assim você irá abrir um `New` Wizard. Esta tela irá carregar a lista dos templates de módulo/projetos disponíveis. 
