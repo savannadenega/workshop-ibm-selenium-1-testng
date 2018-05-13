@@ -23,7 +23,7 @@ A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 - TestNG Eclipse Plugin [Download](https://dl.bintray.com/testng-team/testng-eclipse-release/zipped/6.11.0.201703011520/site_assembly.zip)
 - Eclipse IDE [Download](http://www.eclipse.org/downloads/)
 
-### **Como configurar o ambiente:**
+### Como configurar o ambiente:
 
 - Faça clone do projeto;
 - Importe o projeto para o Eclipse no modelo "Existing Projects into Workspace";
@@ -39,17 +39,14 @@ _Esta é a URL direta pra download do TestNG versão 6.11._
 - Você irá fazer download do arquivo `site_assembly.zip`. Este arquivo contém duas pastas com os nomes `features` e `plugin`;
 
 A pasta `features` contém os dois arquivos descritos abaixo:
-
 ```
-    org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
-    org.testng.eclipse_6.11.0.201703011520.jar
+org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
+org.testng.eclipse_6.11.0.201703011520.jar
 ```
-	
 A pasta `plugin` contém os dois arquivos descritos abaixo:
-
 ```
-	org.testng.eclipse.maven_6.11.0.201703011520.jar
-    org.testng.eclipse_6.11.0.201703011520.jar
+org.testng.eclipse.maven_6.11.0.201703011520.jar
+org.testng.eclipse_6.11.0.201703011520.jar
 ```
 _Nota: você pode procurar por recentes atualizações do TestNG [aqui](https://github.com/cbeust/testng-eclipse)._
 
@@ -76,10 +73,11 @@ _Nota: Este procedimento foi realizado na versão do Eclipse Neon._
 - Filtre por "TestNG", selecione `TestNG Class`, clique em `Next`;
 - Selecione as classes disponíveis que utilizam o TestNG que neste caso são `Chapter1TestCase` e `WebDriverInstance` e depois clique em `Finish`.
 
-Pronto, seu ambiente está configurado \o/
+### Pronto, seu ambiente está configurado \o/
 
 Referências:
-[How Install TestNG](http://www.techbeamers.com/install-testng-in-eclipse-ide/)
+
+[How to Install TestNG](http://www.techbeamers.com/install-testng-in-eclipse-ide/)
 
 
 	
