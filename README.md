@@ -59,19 +59,19 @@ _Nota: você pode procurar por recentes atualizações do TestNG [aqui](https://
 
 A estrutura das pastas deverá ficar assim:
 ```
-	eclipse\
-		dropins\
-			testng-eclipse-6.11\
-				features\
-					org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
-					org.testng.eclipse_6.11.0.201703011520.jar 
-				plugins\
-					org.testng.eclipse.maven_6.11.0.201703011520.jar
-					org.testng.eclipse_6.11.0.201703011520.jar 
+eclipse\
+	dropins\
+		testng-eclipse-6.11\
+			features\
+				org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
+				org.testng.eclipse_6.11.0.201703011520.jar 
+			plugins\
+				org.testng.eclipse.maven_6.11.0.201703011520.jar
+				org.testng.eclipse_6.11.0.201703011520.jar 
 ```
 _Nota: Este procedimento foi realizado na versão do Eclipse Neon._
 
-- Você vai precisar reiniciar ou iniciar o Eclipse (caso esteja com ele fechado), para que o plugin do TestNG possa ser carregado;
+- Você vai precisar reiniciar ou iniciar o Eclipse, para que o plugin do TestNG possa ser carregado;
 - Com o Eclipse aberto, pressione `CTRL+N`, assim você irá abrir um `New` Wizard. Esta tela irá carregar a lista dos templates de módulo/projetos disponíveis. 
 - Filtre por "TestNG", selecione `TestNG Class`, clique em `Next`;
 - Selecione as classes disponíveis que utilizam o TestNG que neste caso são `Chapter1TestCase` e `WebDriverInstance` e depois clique em `Finish`.
