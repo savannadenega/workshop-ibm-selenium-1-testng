@@ -4,8 +4,8 @@ Projeto (parte 1) com a ferramenta Selenium para desenvolvimento de um workshop 
 
 Projeto realizado por: Savanna Denega e Sonja.
 
-Este projeto utiliza do padrão Singleton entre as classes.
-Este projeto não utiliza a ferramenta para build Maven, então já adicionamos todas as dependêcias necessárias. Não utilizamos neste projeto a ferramenta para build Maven para facilitar a configuração dos computadores dos colegas no momento da realização do workshop (por problemas, por exemplo, de configuração de PROXY/VPN ou não possuir o Maven já configurado no computador).
+- Este projeto utiliza do padrão Singleton entre as classes.
+- Este projeto não utiliza a ferramenta para build Maven, então já adicionamos todas as dependêcias necessárias. Não utilizamos neste projeto a ferramenta para build Maven para facilitar a configuração dos computadores dos colegas no momento da realização do workshop (por problemas, por exemplo, de configuração de PROXY/VPN ou não possuir o Maven já configurado no computador).
 
 Os testes automatizados são realizados no site [http://book.theautomatedtester.co.uk/chapter1](http://book.theautomatedtester.co.uk/chapter1), que já é um site destinado para testes com a ferramenta Selenium.
 
@@ -16,19 +16,19 @@ A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 
 ### Recursos utilizados:
 
-- Selenium Server
-- Selenium Java
-- Selenium Chrome Driver
-- TestNG
-- TestNG Eclipse Plugin
-- Eclipse IDE
+- Selenium Server [Download](https://www.seleniumhq.org/download/)
+- Selenium Java [Download](https://www.seleniumhq.org/download/)
+- Selenium Chrome Driver [Download](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- TestNG [Download](http://testng.org/doc/download.html)
+- TestNG Eclipse Plugin [Download](https://dl.bintray.com/testng-team/testng-eclipse-release/zipped/6.11.0.201703011520/site_assembly.zip)
+- Eclipse IDE [Download](http://www.eclipse.org/downloads/)
 
-### Como configurar o ambiente:
+### **Como configurar o ambiente:**
 
 - Faça clone do projeto;
 - Importe o projeto para o Eclipse no modelo "Existing Projects into Workspace";
 
-#### Para configurar o plugin TestNG no Eclipse:
+#### **Para configurar o plugin TestNG no Eclipse:**
 
 - Faça download dos arquivos Jar TestNG no link abaixo:
 
@@ -76,7 +76,10 @@ _Nota: Este procedimento foi realizado na versão do Eclipse Neon._
 - Filtre por "TestNG", selecione `TestNG Class`, clique em `Next`;
 - Selecione as classes disponíveis que utilizam o TestNG que neste caso são `Chapter1TestCase` e `WebDriverInstance` e depois clique em `Finish`.
 
-Pronto, seu ambiente está configurado.
+Pronto, seu ambiente está configurado \o/
+
+Referências:
+[How Install TestNG](http://www.techbeamers.com/install-testng-in-eclipse-ide/)
 
 
 	
