@@ -2,9 +2,8 @@ package testCases;
 
 import org.testng.*;
 import org.testng.annotations.Test;
+
 import org.openqa.selenium.Keys;
-//import org.junit.Assert;
-//import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 
 import utils.WebDriverInstance;

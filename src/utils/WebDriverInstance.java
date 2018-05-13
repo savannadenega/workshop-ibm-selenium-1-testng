@@ -2,8 +2,7 @@ package utils;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
-//import org.junit.AfterClass;
-//import org.junit.BeforeClass;
+
 import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;
 
