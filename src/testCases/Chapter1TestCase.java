@@ -1,7 +1,9 @@
 package testCases;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.*;
+import org.testng.annotations.Test;
+//import org.junit.Assert;
+//import org.junit.Test;
 import org.openqa.selenium.support.PageFactory;
 
 import utils.WebDriverInstance;
@@ -19,7 +21,7 @@ public class Chapter1TestCase extends WebDriverInstance {
 	//1
 	@Test
 	public void clickRadioButtonEsquerda() throws InterruptedException {
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		chapter1Objs.radioButtonEsquerda(driver).click();
 	}
 	
@@ -35,7 +37,7 @@ public class Chapter1TestCase extends WebDriverInstance {
 	//7
 	@Test
 	public void verifyTextRedBox() throws InterruptedException {
-		Thread.sleep(1000);
+		//Thread.sleep(1000);
 		String text = chapter1Objs.textRedBox(driver).getText();
 		Assert.assertFalse(text.isEmpty());
 	}
