@@ -9,7 +9,7 @@ Este projeto não utiliza a ferramenta para build Maven, então já adicionamos 
 
 Os testes automatizados são realizados no site [http://book.theautomatedtester.co.uk/chapter1](http://book.theautomatedtester.co.uk/chapter1), que já é um site destinado para testes com a ferramenta Selenium.
 
-A ordem dos testes é realizada de acordo com a imagem abaixo:
+A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 
 ![order-testes](readme-images/order-tests-project1.png)
 
@@ -21,6 +21,7 @@ A ordem dos testes é realizada de acordo com a imagem abaixo:
 - Selenium Chrome Driver
 - TestNG
 - TestNG Eclipse Plugin
+- IDE Eclipse
 
 ### Como configurar o ambiente:
 
@@ -32,16 +33,24 @@ A ordem dos testes é realizada de acordo com a imagem abaixo:
 - Faça download dos arquivos Jar TestNG no link abaixo:
 
 [https://dl.bintray.com/testng-team/testng-eclipse-release/zipped/6.11.0.201703011520/site_assembly.zip](https://dl.bintray.com/testng-team/testng-eclipse-release/zipped/6.11.0.201703011520/site_assembly.zip)
+
 Esta é a URL direta pra download do TestNG versão 6.11.
 
 - Você irá fazer download do arquivo `site_assembly.zip`. Este arquivo contém duas pastas com os nomes `features` e `plugin`;
 
 A pasta `features` contém os dois arquivos descritos abaixo:
+
+	```
     org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
     org.testng.eclipse_6.11.0.201703011520.jar
+	```
+	
 A pasta `plugin` contém os dois arquivos descritos abaixo:
-    org.testng.eclipse.maven_6.11.0.201703011520.jar
+
+    ```
+	org.testng.eclipse.maven_6.11.0.201703011520.jar
     org.testng.eclipse_6.11.0.201703011520.jar
+	```
 Nota: você pode procurar por recentes atualizações do TestNG [aqui](https://github.com/cbeust/testng-eclipse).
 
 - Vá até o diretório onde está a instalação do Eclipse e procure pela pasta `dropins`;
@@ -49,16 +58,17 @@ Nota: você pode procurar por recentes atualizações do TestNG [aqui](https://g
 - Extraia o arquivo recém baixado `site_assembly.zip` dentro desta pasta `testng-eclipse-6.11`, deixando apenas as pastas `features` e `plugin`;
 
 A estrutura das pastas deverá ficar assim:
-``eclipse\
-     dropins\
-        testng-eclipse-6.11\
-            features\
-               org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
-               org.testng.eclipse_6.11.0.201703011520.jar 
-            plugins\
-               org.testng.eclipse.maven_6.11.0.201703011520.jar
-               org.testng.eclipse_6.11.0.201703011520.jar
-``
+```
+	eclipse\
+		dropins\
+			testng-eclipse-6.11\
+				features\
+					org.testng.eclipse.maven.feature_6.11.0.201703011520.jar
+					org.testng.eclipse_6.11.0.201703011520.jar 
+				plugins\
+					org.testng.eclipse.maven_6.11.0.201703011520.jar
+					org.testng.eclipse_6.11.0.201703011520.jar 
+```
 Nota: Este procedimento foi realizado na versão do Eclipse Neon.
 
 - Você vai precisar reiniciar ou iniciar o Eclipse (caso esteja com ele fechado), para que o plugin do TestNG possa ser carregado;
