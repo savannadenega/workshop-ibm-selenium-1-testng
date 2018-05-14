@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18828" started-at="2018-05-13T23:48:51Z" finished-at="2018-05-13T23:49:10Z">
+  <suite name="Default suite" duration-ms="13395" started-at="2018-05-14T01:49:04Z" finished-at="2018-05-14T01:49:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18828" started-at="2018-05-13T23:48:51Z" finished-at="2018-05-13T23:49:10Z">
+    <test name="Default test" duration-ms="13395" started-at="2018-05-14T01:49:04Z" finished-at="2018-05-14T01:49:18Z">
       <class name="testCases.Chapter1TestCase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Chapter1TestCase@675d3402]" name="setUp" is-config="true" duration-ms="6289" started-at="2018-05-13T20:48:51Z" finished-at="2018-05-13T20:48:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Chapter1TestCase@68be2bc2]" name="setUp" is-config="true" duration-ms="4779" started-at="2018-05-13T22:49:04Z" finished-at="2018-05-13T22:49:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickButtonLoadRedBox()[pri:0, instance:testCases.Chapter1TestCase@675d3402]" name="clickButtonLoadRedBox" duration-ms="5096" started-at="2018-05-13T20:48:57Z" finished-at="2018-05-13T20:49:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickButtonLoadRedBox -->
-        <test-method status="PASS" signature="clickComboBoxEsquerda()[pri:0, instance:testCases.Chapter1TestCase@675d3402]" name="clickComboBoxEsquerda" duration-ms="1286" started-at="2018-05-13T20:49:02Z" finished-at="2018-05-13T20:49:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickComboBoxEsquerda -->
-        <test-method status="PASS" signature="clickRadioButtonEsquerda()[pri:0, instance:testCases.Chapter1TestCase@675d3402]" name="clickRadioButtonEsquerda" duration-ms="1081" started-at="2018-05-13T20:49:04Z" finished-at="2018-05-13T20:49:05Z">
+        <test-method status="PASS" signature="clickRadioButtonEsquerda()[pri:1, instance:testCases.Chapter1TestCase@68be2bc2]" name="clickRadioButtonEsquerda" duration-ms="2104" started-at="2018-05-13T22:49:09Z" finished-at="2018-05-13T22:49:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickRadioButtonEsquerda -->
-        <test-method status="PASS" signature="verifyTextRedBox()[pri:0, instance:testCases.Chapter1TestCase@675d3402]" name="verifyTextRedBox" duration-ms="5043" started-at="2018-05-13T20:49:05Z" finished-at="2018-05-13T20:49:10Z">
+        <test-method status="PASS" signature="clickComboBoxEsquerda()[pri:2, instance:testCases.Chapter1TestCase@68be2bc2]" name="clickComboBoxEsquerda" duration-ms="2294" started-at="2018-05-13T22:49:11Z" finished-at="2018-05-13T22:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickComboBoxEsquerda -->
+        <test-method status="PASS" signature="clickButtonLoadRedBox()[pri:3, instance:testCases.Chapter1TestCase@68be2bc2]" name="clickButtonLoadRedBox" duration-ms="2120" started-at="2018-05-13T22:49:13Z" finished-at="2018-05-13T22:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickButtonLoadRedBox -->
+        <test-method status="PASS" signature="verifyTextRedBox()[pri:4, instance:testCases.Chapter1TestCase@68be2bc2]" name="verifyTextRedBox" duration-ms="2077" started-at="2018-05-13T22:49:15Z" finished-at="2018-05-13T22:49:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTextRedBox -->
