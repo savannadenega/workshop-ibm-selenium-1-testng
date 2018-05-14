@@ -2,7 +2,7 @@
 
 Projeto (parte 1) com a ferramenta Selenium para desenvolvimento de um workshop a ser realizado para os colegas da IBM.
 
-Projeto realizado por: Savanna Denega e Sonja.
+Projeto realizado por: Savanna Denega e Sonja Bitencourte.
 
 - Este projeto utiliza os padrões Singleton e Page Object.
 - Este projeto não utiliza a ferramenta para build Maven, então já adicionamos todas as dependêcias necessárias. Não utilizamos neste projeto a ferramenta para build Maven para facilitar a configuração dos computadores dos colegas no momento da realização do workshop (por problemas, por exemplo, de configuração de PROXY/VPN ou não possuir o Maven já configurado no computador).
